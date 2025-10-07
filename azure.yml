@@ -1,0 +1,9 @@
+# Azure Static Web App configuration
+# This file configures the build and deployment settings for your React app
+
+name: catching-mice-game
+services:
+  frontend:
+    project: .
+    host: staticwebapp
+    language: js
